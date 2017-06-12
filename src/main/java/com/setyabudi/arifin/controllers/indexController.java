@@ -17,7 +17,7 @@ public class indexController {
     public ModelAndView printHello() {
         ModelAndView model = new ModelAndView("index");
         model.addObject("message", "hello world");
-        return model;
+        return model; 
     }
 
     @RequestMapping(value = "/ahay", method = RequestMethod.GET)
