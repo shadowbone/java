@@ -5,6 +5,6 @@
    </head>
    
    <body>
-      <h2>${message}</h2>
+      <h2>${message} UserName :${user.name}</h2>
    </body>
 </html>
