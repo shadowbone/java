@@ -21,6 +21,10 @@ Any value defined here will override the pom.xml file value but is only applicab
             <config-file>src/main/webapp/WEB-INF/web.xml</config-file>
             <config-file>src/main/webapp/WEB-INF/dispatcher-servlet.xml</config-file>
             <config-file>src/main/webapp/WEB-INF/applicationContext.xml</config-file>
+            <config-file>src/main/webapp/WEB-INF/appconfig-security.xml</config-file>
+            <config-file>src/main/webapp/WEB-INF/appconfig-root.xml</config-file>
+            <config-file>src/main/webapp/WEB-INF/appconfig-mvc.xml</config-file>
+            <config-file>src/main/webapp/WEB-INF/appconfig-data.xml</config-file>
         </config-files>
         <config-file-groups/>
     </spring-data>

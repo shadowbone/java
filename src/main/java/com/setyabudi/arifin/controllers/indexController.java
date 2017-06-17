@@ -20,7 +20,7 @@ public class indexController {
     
     @RequestMapping(value = "/*", method = RequestMethod.GET)
     public ModelAndView printHello() {
-        ModelAndView model = new ModelAndView("index");
+        ModelAndView model = new ModelAndView("login/index");
         String username = "admin";
         model.addObject("user",userService.findByUsername(username));
         model.addObject("message", "hello world");
